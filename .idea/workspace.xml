@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="add labyrinth">
-      <change afterPath="$PROJECT_DIR$/Инициализация игры.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Координаты клетки.py" afterDir="false" />
+    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="Решил Инициализация игры и Координаты клетки">
+      <change afterPath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labyrinth.py" beforeDir="false" afterPath="$PROJECT_DIR$/labyrinth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Координаты клетки.py" beforeDir="false" afterPath="$PROJECT_DIR$/Координаты клетки.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +47,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.111.executor": "Run",
     "Python.labyrinth.executor": "Run",
     "Python.main.executor": "Run",
     "Python.Инициализация игры.executor": "Run",
     "Python.Координаты клетки.executor": "Run",
+    "Python.Чёрное в белое и наоборот.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -112,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736954230919</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Решил Инициализация игры и Координаты клетки">
+      <option name="closed" value="true" />
+      <created>1736959553710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736959553710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add labyrinth" />
-    <option name="LAST_COMMIT_MESSAGE" value="add labyrinth" />
+    <MESSAGE value="Решил Инициализация игры и Координаты клетки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решил Инициализация игры и Координаты клетки" />
   </component>
 </project>

@@ -9,7 +9,7 @@ class Board:
     def __init__(self, width, height):
         self.width = width
         self.height = height
-        self.board = [[0] * width for _ in range(height)]
+        self.board = [[1] * width for _ in range(height)]
         # значения по умолчанию
         self.left = 10
         self.top = 10
@@ -26,7 +26,7 @@ class Board:
         for y in range(self.height):
             for x in range(self.width):
                 pygame.draw.rect(screen, color, (self.left + x * self.cell_size, self.top + y * self.cell_size,
-                                                 self.cell_size, self.cell_size), 1)
+                                                 self.cell_size, self.cell_size), self.board[y][x])
 
     #  метод возвращает координаты клетки
     def get_cell(self, mouse_pos):
@@ -38,7 +38,12 @@ class Board:
 
     # метод изменяет поле, опираясь на полученные координаты клетки
     def on_click(self, cell_coords):
-        print(cell_coords)
+        for x in range(self.height):
+            self.board[x][cell_coords[1]] = int(not (self.board[x][cell_coords[1]]))
+        for y in range(self.width):
+            self.board[cell_coords[0]][y] = int(not (self.board[cell_coords[0]][y]))
+        self.board[cell_coords[0]][cell_coords[1]] = int(not (self.board[cell_coords[0]][cell_coords[1]]))
+        # print(self.board)
 
     # метод - диспетчер, который получает событие нажатия и вызывает первые два метода
     def get_click(self, mouse_pos):
@@ -49,7 +54,7 @@ class Board:
 def main():
     pygame.init()
     screen = pygame.display.set_mode(WINDOW_SIZE)
-    pygame.display.set_caption('Координаты клетки')
+    pygame.display.set_caption('Чёрное в белое и наоборот')
 
     board = Board(5, 7)
     # board.set_view(100, 100, 50)
@@ -61,7 +66,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-            if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 board.get_click(event.pos)
         screen.fill('black')
         board.render(screen)
