@@ -32,6 +32,7 @@ class Labyrinth:
     def is_free(self, position):
         return self.get_tile_id(position) in self.free_tiles
 
+
 class Hero:
     def __init__(self, position):
         self.x, self.y = position
@@ -68,7 +69,6 @@ class Game:
             next_y += 1
         if self.labyrinth.is_free((next_x, next_y)):
             self.hero.set_position((next_x, next_y))
-
 
 
 def main():

@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/labyrinth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/simple_map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="add labyrinth">
+      <change afterPath="$PROJECT_DIR$/Инициализация игры.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Координаты клетки.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labyrinth.py" beforeDir="false" afterPath="$PROJECT_DIR$/labyrinth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +50,8 @@
   "keyToString": {
     "Python.labyrinth.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.Инициализация игры.executor": "Run",
+    "Python.Координаты клетки.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -96,11 +104,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736949189918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add labyrinth">
+      <option name="closed" value="true" />
+      <created>1736954230919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736954230919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add labyrinth" />
+    <option name="LAST_COMMIT_MESSAGE" value="add labyrinth" />
   </component>
 </project>
