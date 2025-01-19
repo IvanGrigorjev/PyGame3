@@ -2,6 +2,7 @@ import pygame
 
 WINDOW_SIZE = WINDOW_WIDTH, WINDOW_HEIGHT = 400, 400
 FPS = 30
+COLORS = ['black', 'red', 'blue']
 
 
 class Board:
@@ -9,11 +10,12 @@ class Board:
     def __init__(self, width, height):
         self.width = width
         self.height = height
-        self.board = [[1] * width for _ in range(height)]
+        self.board = [[0] * width for _ in range(height)]
         # значения по умолчанию
         self.left = 10
         self.top = 10
         self.cell_size = 30
+        self.colors = ['black', 'red', 'blue']
 
     # настройка внешнего вида
     def set_view(self, left, top, cell_size):
@@ -22,11 +24,12 @@ class Board:
         self.cell_size = cell_size
 
     def render(self, screen):
-        color = pygame.Color(255, 255, 255)
         for y in range(self.height):
             for x in range(self.width):
-                pygame.draw.rect(screen, color, (self.left + x * self.cell_size, self.top + y * self.cell_size,
-                                                 self.cell_size, self.cell_size), self.board[y][x])
+                pygame.draw.rect(screen, self.colors[self.board[y][x]], (
+                    self.left + x * self.cell_size, self.top + y * self.cell_size, self.cell_size, self.cell_size))
+                pygame.draw.rect(screen, 'white', (
+                    self.left + x * self.cell_size, self.top + y * self.cell_size, self.cell_size, self.cell_size), 1)
 
     #  метод возвращает координаты клетки
     def get_cell(self, mouse_pos):
@@ -39,12 +42,8 @@ class Board:
     # метод изменяет поле, опираясь на полученные координаты клетки
     def on_click(self, cell_coords):
         if cell_coords:
-            for x in range(self.height):
-                self.board[x][cell_coords[1]] = int(not (self.board[x][cell_coords[1]]))
-            for y in range(self.width):
-                self.board[cell_coords[0]][y] = int(not (self.board[cell_coords[0]][y]))
-            self.board[cell_coords[0]][cell_coords[1]] = int(not (self.board[cell_coords[0]][cell_coords[1]]))
             # print(self.board)
+            self.board[cell_coords[0]][cell_coords[1]] = (self.board[cell_coords[0]][cell_coords[1]] + 1) % 3
 
     # метод - диспетчер, который получает событие нажатия и вызывает первые два метода
     def get_click(self, mouse_pos):

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="Решил Инициализация игры и Координаты клетки">
-      <change afterPath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" afterDir="false" />
+    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="Решил Чёрное в белое и наоборот">
+      <change afterPath="$PROJECT_DIR$/Пра-пра-пра-крестики-нолики.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Реакция на события от мыши.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Координаты клетки.py" beforeDir="false" afterPath="$PROJECT_DIR$/Координаты клетки.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" beforeDir="false" afterPath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IvanGrigorjev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IvanGrigorjev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IvanGrigorjev/PyGame3.git",
-    "accountId": "a483671e-4d21-4468-b659-31ff27eb2dcc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IvanGrigorjev/PyGame3.git&quot;,
+    &quot;accountId&quot;: &quot;a483671e-4d21-4468-b659-31ff27eb2dcc&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2rfTIew84IdLoFKvvUJk7D0dj6L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,9 +53,12 @@
     "Python.main.executor": "Run",
     "Python.Инициализация игры.executor": "Run",
     "Python.Координаты клетки.executor": "Run",
+    "Python.Пра-пра-пра-крестики-нолики.executor": "Run",
+    "Python.Реакция на события от мыши.executor": "Run",
     "Python.Чёрное в белое и наоборот.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -121,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736959553710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Решил Чёрное в белое и наоборот">
+      <option name="closed" value="true" />
+      <created>1736961762607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736961762607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +151,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add labyrinth" />
     <MESSAGE value="Решил Инициализация игры и Координаты клетки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решил Инициализация игры и Координаты клетки" />
+    <MESSAGE value="Решил Чёрное в белое и наоборот" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решил Чёрное в белое и наоборот" />
   </component>
 </project>
