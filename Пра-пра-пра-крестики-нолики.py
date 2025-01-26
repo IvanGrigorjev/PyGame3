@@ -56,10 +56,11 @@ class Board:
     # метод изменяет поле, опираясь на полученные координаты клетки
     def on_click(self, cell_coords):
         if cell_coords:
-            if self.step % 2 == 0:
-                self.board[cell_coords[0]][cell_coords[1]] = 2
-            else:
-                self.board[cell_coords[0]][cell_coords[1]] = 1
+            if self.board[cell_coords[0]][cell_coords[1]] == 0:
+                if self.step % 2 == 0:
+                    self.board[cell_coords[0]][cell_coords[1]] = 2
+                else:
+                    self.board[cell_coords[0]][cell_coords[1]] = 1
             print(cell_coords, self.board[cell_coords[0]][cell_coords[1]], self.step)
 
     # метод - диспетчер, который получает событие нажатия и вызывает первые два метода
@@ -71,7 +72,7 @@ class Board:
 def main():
     pygame.init()
     screen = pygame.display.set_mode(WINDOW_SIZE)
-    pygame.display.set_caption('Чёрное в белое и наоборот')
+    pygame.display.set_caption('Пра-пра-пра-крестики-нолики')
 
     board = Board(10, 7)
     # board.set_view(100, 100, 50)

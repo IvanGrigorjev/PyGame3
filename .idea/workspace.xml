@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="Решил Чёрное в белое и наоборот">
-      <change afterPath="$PROJECT_DIR$/Пра-пра-пра-крестики-нолики.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Реакция на события от мыши.py" afterDir="false" />
+    <list default="true" id="776b4aa7-f43b-49bd-a58c-89159e6e9be6" name="Changes" comment="Решил Реакция на события от мыши и Пра-крестики">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" beforeDir="false" afterPath="$PROJECT_DIR$/Чёрное в белое и наоборот.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пра-пра-пра-крестики-нолики.py" beforeDir="false" afterPath="$PROJECT_DIR$/Пра-пра-пра-крестики-нолики.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.111.executor": "Run",
-    "Python.labyrinth.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.Инициализация игры.executor": "Run",
-    "Python.Координаты клетки.executor": "Run",
-    "Python.Пра-пра-пра-крестики-нолики.executor": "Run",
-    "Python.Реакция на события от мыши.executor": "Run",
-    "Python.Чёрное в белое и наоборот.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.111.executor&quot;: &quot;Run&quot;,
+    &quot;Python.labyrinth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Инициализация игры.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Координаты клетки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пра-пра-пра-крестики-нолики.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Реакция на события от мыши.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Чёрное в белое и наоборот.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sysadmin/PycharmProjects/PyGame3&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="labyrinth" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PyGame3" />
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736961762607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Решил Реакция на события от мыши и Пра-крестики">
+      <option name="closed" value="true" />
+      <created>1737281616657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737281616658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +159,7 @@
     <MESSAGE value="add labyrinth" />
     <MESSAGE value="Решил Инициализация игры и Координаты клетки" />
     <MESSAGE value="Решил Чёрное в белое и наоборот" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решил Чёрное в белое и наоборот" />
+    <MESSAGE value="Решил Реакция на события от мыши и Пра-крестики" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решил Реакция на события от мыши и Пра-крестики" />
   </component>
 </project>
